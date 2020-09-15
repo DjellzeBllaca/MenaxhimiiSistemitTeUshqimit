@@ -1,0 +1,300 @@
+{
+	"Anetari":[
+	{
+		"ID":"1A"
+		"Emri":"Altin"
+		"Mbiemri":"Morina"
+		"Adresa":{
+		"Rruga":"Velani, Rr. Shaip Kamberi"	
+		"Qyteti":"Prishtine"
+		"Shteti":"Kosove"
+		"Zip":"10000"}
+		"Tel":{
+           "Prefiksi": "+383",
+            "Numri":"344949897"
+		}
+		"Email":"Altin.Morina@hotmail.com"
+		"Ditelindja":{
+			"dita": "05",
+            "muaji": "12",
+            "viti": "1999"
+		}
+	},
+	{
+		"ID":"3A"
+		"Emri":"Bardha"
+		"Mbiemri":"Zogiani"
+		"Adresa":{
+		"Rruga":"Dardania 1, Rr. Fatos Limani"
+		"Qyteti":"Gjilan"
+		"Shteti":"Kosove"
+		"Zip":"60000"}
+		"Tel":{
+           "Prefiksi": "+383",
+            "Numri":"45149237"
+		}
+		"Email":"Bardha.Zogiani@hotmail.com"
+		"Ditelindja":{
+			"dita": "24",
+            "muaji": "09",
+            "viti": "1987"
+		}
+	}	
+	],
+
+	"Personale":[
+	{
+		"ID":"1A"
+		"Mosha":"19"
+		"Gjinia":"M"
+		"Gjatesia":"1.73"
+		"Pesha":"60"
+	},
+	{
+		"ID":"3A"
+		"Mosha":"22"
+		"Gjinia":"F"
+		"Gjatesia":"1.71"
+		"Pesha":"57"
+	}
+	],
+
+	"KonfidencialeA":[
+	{
+        "ID":"1A"
+        "Username":"Altin.Morina"
+        "Password":"AM9912"
+	},
+
+	{
+        "ID":"3A"
+        "Username":"Bardha.Zogiani"
+        "Password":"BZ9402"
+	}
+	],
+
+	"Nutricionisti":[
+	{
+		"ID_Nutri":"1N"
+		"Emri":"Robert"
+		"Mbiemri":"Berisha"
+		"Adresa":{
+		"Rruga":"Bregu i Diellit"
+		"Qyteti":"Prishtine"
+		}
+		"Tel":{
+           "Prefiksi": "+383",
+            "Numri":"44354623"
+		}
+		"Email":"robert.berisha@gmail.com"
+		"Kualifikimi":"Master"
+
+	},
+		{
+		"ID_Nutri":"2N"
+		"Emri":"Gentiana"
+		"Mbiemri":"Kastrati"
+		"Adresa":{
+		"Rruga":"Bezhdarhane"
+		"Qyteti":"Prizren"
+		}
+		"Tel":{
+           "Prefiksi": "+377",
+            "Numri":"44534784"
+		}
+		"Email":"gentianakastrati@gmail.com"
+		"Kualifikimi":"Doktorature"
+		
+	}
+	],
+
+
+    "KonfidencialeN":[
+	{
+        "ID":"1N"
+        "Username":"Robert.Berisha"
+        "Password":"N0001"
+	},
+
+	{
+        "ID":"3N"
+        "Username":"Gentiana.Kastrati"
+        "Password":"N0002"
+	}
+	],
+
+	"Perberesi":[
+	{
+		"Perberesi":"Kafe"
+		"Prodhuesi":"Nescafe"
+		"Pesha":"200"
+	},
+	{
+		"Perberesi":"Biskota"
+		"Prodhuesi":"Sempre"
+		"Pesha":"75"
+	}
+	],
+
+	"Problemi_Shendetesor":[
+	{
+		"Lloji":"Obezitet"
+	},
+	{
+		"Lloji":"Diabet"
+	}
+	],
+
+	"Kartela_Mjekesore":[
+	{
+		"ID":"1A"
+		"Alergjite":"Domate"
+		"Problemi_Shendetesor":"Obezitet"
+	},
+	{
+		"ID":"3A"
+		"Alergjite":null
+		"Problemi_Shendetesor":"Diabet"
+	}
+	],
+
+	"Lendet_UshqyeseP":[
+	{
+		"Perberesi":"Kafe"
+		"Kalori":"100"
+		"Proteina":"0"
+		"Karbohidrate":"10"
+	},
+	{
+		"Perberesi":"Biskota"
+		"Kalori":"250"
+		"Proteina":"10"
+		"Karbohidrate":"10"
+	}
+	],
+
+	"Pjata":[
+	{
+		"ID_Pjata":"1P"
+		"EmriP":"Makiato"
+		"Nr_Personave":"1"
+		"Koha_pergatitjes":"5"
+	},{
+		"ID_Pjata":"10P"
+		"EmriP":"Veze te ziera"
+		"Nr_Personave":"1"
+		"Koha_pergatitjes":"10"
+	}
+	],
+
+	"Instruksione":[
+	{
+		"ID_Inst":"1I"
+		"Instruksione":"Merr kafen dhe shtoni qumështin, merr biskotat"
+	},
+	{
+		"ID_Inst":"2I"
+		"Instruksione":"Vendos portokallin ne shtrydhesen e frutave"
+	}
+	],
+
+	"Receta":[
+	{
+		"ID_Produkti":"Kafe"
+		"ID_Pjata":"1P"
+		"Instruksione":"1I"	
+	},
+	{
+		"ID_Produkti":"Biskota"
+		"ID_Pjata":"1P"
+		"Instruksione":"1I"	
+	}
+	],
+
+    	"Dita":[
+	{
+		"ID_Dita":"1D"
+		"Mengjesi":"1P"
+		"Dreka":"2P"
+		"Darka":"2P"	
+	},
+	{
+		"ID_Dita":"2D"
+		"Mengjesi":"1P"
+		"Dreka":"2P"
+		"Darka":"2P"	
+	}
+	],
+
+	"Dieta":[
+	{
+		"ID_Dieta":"1DI"
+		"Dita 1":"1D"
+		"Dita 2":"2D"
+		"Dita 3":"1D"
+		"Dita 4":"2D"
+		"Dita 5":"2D"
+		"Dita 6":"1D"
+		"Dita 7":"1D"
+	},
+	{
+		"ID_Dieta":"2DI"
+		"Dita 1":"1D"
+		"Dita 2":"2D"
+		"Dita 3":"1D"
+		"Dita 4":"2D"
+		"Dita 5":"2D"
+		"Dita 6":"1D"
+		"Dita 7":"1D"
+	}
+	],
+
+	"Takimi":[
+	{
+		"Klienti":"1A"
+		"Nutricionisti":"1N"
+		"Data":{
+			"dita":"05"
+			"Data1":"01"
+			"viti":"2019"
+		}
+	},
+	{
+		"Klienti":"3A"
+		"Nutricionisti":"2N"
+		"Data":{
+			"dita":"05"
+			"Data1":"02"
+			"viti":"2019"
+		}
+	}
+	],
+
+	"Zgjidhja":[
+	{
+		"Problemi_Shendetesor":"Obezitet"
+		"ID_Dieta":"1DI"
+	},
+	{
+		"Problemi_Shendetesor":"Obezitet"
+		"ID_Dieta":"6DI"
+	}
+	],
+
+	"Receta_Nutri":[
+	{
+		"Klienti":"1A"
+		"Nutricionisti":"1N"
+		"ID_Dieta":"1DI"
+	},
+	{
+		"Klienti":"3A"
+		"Nutricionisti":"2N"
+		"ID_Dieta":"2DI"
+	}
+	]
+
+
+
+
+}
